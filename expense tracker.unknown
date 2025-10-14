@@ -1,0 +1,252 @@
+
+=== Personal Expense Tracker ===
+1. Add Expense
+2. View All Expenses
+3. Filter Expenses
+4. Delete Expense
+5. Edit Expense
+6. Generate Summary Report
+7. Exit
+Select option: 1
+
+--- Add New Expense ---
+Enter date (YYYY-MM-DD) or press Enter for today: 2025-9-9
+Categories:
+1. Food
+2. Travel
+3. Shopping
+4. Bills
+5. Other
+Select category (number): 1
+Enter description: party
+Enter amount: 5000
+Expense added successfully! (ID: 1)
+
+=== Personal Expense Tracker ===
+1. Add Expense
+2. View All Expenses
+3. Filter Expenses
+4. Delete Expense
+5. Edit Expense
+6. Generate Summary Report
+7. Exit
+Select option: 1
+
+--- Add New Expense ---
+Enter date (YYYY-MM-DD) or press Enter for today: 2025-9-16
+Categories:
+1. Food
+2. Travel
+3. Shopping
+4. Bills
+5. Other
+Select category (number): 2
+Enter description: tirupati
+Enter amount: 6000
+Expense added successfully! (ID: 2)
+
+=== Personal Expense Tracker ===
+1. Add Expense
+2. View All Expenses
+3. Filter Expenses
+4. Delete Expense
+5. Edit Expense
+6. Generate Summary Report
+7. Exit
+Select option: 1
+
+--- Add New Expense ---
+Enter date (YYYY-MM-DD) or press Enter for today: 2025-9-20
+Categories:
+1. Food
+2. Travel
+3. Shopping
+4. Bills
+5. Other
+Select category (number): 2
+Enter description: return
+Enter amount: 6500
+Expense added successfully! (ID: 3)
+
+=== Personal Expense Tracker ===
+1. Add Expense
+2. View All Expenses
+3. Filter Expenses
+4. Delete Expense
+5. Edit Expense
+6. Generate Summary Report
+7. Exit
+Select option: 1
+
+--- Add New Expense ---
+Enter date (YYYY-MM-DD) or press Enter for today: 2025-9-24
+Categories:
+1. Food
+2. Travel
+3. Shopping
+4. Bills
+5. Other
+Select category (number): 3
+Enter description: clothes
+Enter amount: 5999
+Expense added successfully! (ID: 4)
+
+=== Personal Expense Tracker ===
+1. Add Expense
+2. View All Expenses
+3. Filter Expenses
+4. Delete Expense
+5. Edit Expense
+6. Generate Summary Report
+7. Exit
+Select option: 1
+
+--- Add New Expense ---
+Enter date (YYYY-MM-DD) or press Enter for today: 2025-10-3
+Categories:
+1. Food
+2. Travel
+3. Shopping
+4. Bills
+5. Other
+Select category (number): 4
+Enter description: electricity
+Enter amount: 8967
+Expense added successfully! (ID: 5)
+
+=== Personal Expense Tracker ===
+1. Add Expense
+2. View All Expenses
+3. Filter Expenses
+4. Delete Expense
+5. Edit Expense
+6. Generate Summary Report
+7. Exit
+Select option: 2
+
+ID    Date         Category     Description               Amount    
+----------------------------------------------------------------------
+1     2025-9-9     Food         party                     $5000.00   
+2     2025-9-16    Travel       tirupati                  $6000.00   
+3     2025-9-20    Travel       return                    $6500.00   
+4     2025-9-24    Shopping     clothes                   $5999.00   
+5     2025-10-3    Bills        electricity               $8967.00   
+
+=== Personal Expense Tracker ===
+1. Add Expense
+2. View All Expenses
+3. Filter Expenses
+4. Delete Expense
+5. Edit Expense
+6. Generate Summary Report
+7. Exit
+Select option: 3
+
+--- Filter Expenses ---
+1. View all expenses
+2. Filter by category
+3. Filter by date range
+4. Filter by ID
+Select option: 4
+Enter expense ID: 3
+
+ID    Date         Category     Description               Amount    
+----------------------------------------------------------------------
+3     2025-9-20    Travel       return                    $6500.00   
+
+=== Personal Expense Tracker ===
+1. Add Expense
+2. View All Expenses
+3. Filter Expenses
+4. Delete Expense
+5. Edit Expense
+6. Generate Summary Report
+7. Exit
+Select option: 4
+
+--- Delete Expense ---
+
+--- Filter Expenses ---
+1. View all expenses
+2. Filter by category
+3. Filter by date range
+4. Filter by ID
+Select option: 4
+Enter expense ID: 5
+
+ID    Date         Category     Description               Amount    
+----------------------------------------------------------------------
+5     2025-10-3    Bills        electricity               $8967.00   
+
+Enter the ID of the expense to delete (0 to cancel): 5
+Are you sure you want to delete expense ID 5? (y/n): y
+Expense ID 5 deleted successfully!
+
+=== Personal Expense Tracker ===
+1. Add Expense
+2. View All Expenses
+3. Filter Expenses
+4. Delete Expense
+5. Edit Expense
+6. Generate Summary Report
+7. Exit
+Select option: 5
+
+--- Edit Expense ---
+
+ID    Date         Category     Description               Amount    
+----------------------------------------------------------------------
+1     2025-9-9     Food         party                     $5000.00   
+2     2025-9-16    Travel       tirupati                  $6000.00   
+3     2025-9-20    Travel       return                    $6500.00   
+4     2025-9-24    Shopping     clothes                   $5999.00   
+
+Enter the ID of the expense to edit (0 to cancel): 4
+
+Editing expense ID 4:
+1. Date: 2025-9-24
+2. Category: Shopping
+3. Description: clothes
+4. Amount: $5999.00
+5. Cancel
+Select field to edit (1-5): 4
+Enter new amount: 4999
+Expense ID 4 updated successfully!
+
+=== Personal Expense Tracker ===
+1. Add Expense
+2. View All Expenses
+3. Filter Expenses
+4. Delete Expense
+5. Edit Expense
+6. Generate Summary Report
+7. Exit
+Select option: 6
+
+--- Monthly Summary ---
+Enter month and year (YYYY-MM) or press Enter for current month: 2025-9
+
+Summary for 2025-9:
+Total expenses: $22499.00
+
+Category breakdown:
+Food: $5000.00 (22.2%)
+Travel: $12500.00 (55.6%)
+Shopping: $4999.00 (22.2%)
+
+Highest spending category: Travel ($12500.00)
+Lowest spending category: Shopping ($4999.00)
+
+=== Personal Expense Tracker ===
+1. Add Expense
+2. View All Expenses
+3. Filter Expenses
+4. Delete Expense
+5. Edit Expense
+6. Generate Summary Report
+7. Exit
+Select option: 7
+Goodbye!
+
+
+** Process exited - Return Code: 0 **
