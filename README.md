@@ -52,7 +52,8 @@ python expense_tracker.py
 
 ## Main Menu Options
 Once the application is running, you'll see the following menu:
-**=== Personal Expense Tracker ===**
+
+ **=== Personal Expense Tracker ===**
 
 - Add Expense
 - View All Expenses
