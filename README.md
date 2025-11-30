@@ -1,11 +1,7 @@
 ## Personal Expense Tracker
 ## Overview:
 
-- The Personal Expense Tracker is a Python console application that helps users manage their d
-
-expenses. It allows you to record expenses, categorize them, view spending patterns, and generate
-
-detailed monthly reports. All data is stored in a CSV file for persistence between sessi
+- The Personal Expense Tracker is a Python console application that helps users manage their daily expenses. It allows you to record expenses, categorize them, view spending patterns, and generate detailed monthly reports. All data is stored in a CSV file for persistence between sessi
 
 ## Features
 
