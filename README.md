@@ -212,3 +212,6 @@ Potential improvements for future versions:
 - Receipt image attachment
 
 - Multi-currency support
+
+## Contact :
+https://github.com/tulasi-suda/@example.com
